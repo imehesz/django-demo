@@ -9,14 +9,17 @@
   "scripts": {
     "build": "parcel build src/main.js -d dist && parcel build src/css/main.pcss -d dist/css",
     "watchjs": "parcel watch src/main.js -o dist/main.js",
-    "watchcss": "parcel watch src/css/main.pcss -d dist/css/"
+    "watchcss": "parcel watch src/css/main.pcss -d dist/css/",
+    "buildriot": "parcel build src/riot/main.js -d dist/riot && parcel build src/css/main.pcss -d dist/riot/css"
   },
   "dependencies": {
     "autoprefixer": "^9.7.5",
     "postcss-cli": "^7.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "^1.2.0",
+    "riot": "^4.11.1",
+    "@riotjs/parcel-plugin-riot": "4.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
