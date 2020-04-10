@@ -12,8 +12,10 @@
 
 Go into /frontend and run these commands.
 
-1. npm install
-2. npm run build
+1. `npm install`
+2. `npm run build` -- builds with React
+3. `npm run buildriot` -- Riot4
+
 
 ## Running server
 
