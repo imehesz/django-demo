@@ -15,6 +15,7 @@ Go into /frontend and run these commands.
 1. `npm install`
 2. `npm run build` -- builds with React
 3. `npm run buildriot` -- Riot4
+4. `npm run buildriotpug` -- Riot4 with Pug, so pretty! ♥
 
 
 ## Running server
