@@ -21,5 +21,6 @@ from app import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
-    path('riot/', views.riot)
+    path('riot/', views.riot),
+    path("riotpug/", views.riotpug)
 ]

@@ -6,3 +6,6 @@ def index(request):
 
 def riot(request):
     return render(request, "index-riot.html")
+
+def riotpug(request):
+    return render(request, "index-riot-pug.html")
