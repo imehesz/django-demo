@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
     path('riot/', views.riot),
-    path("riotpug/", views.riotpug)
+    path("riotpug/", views.riotpug),
+    path("vue/", views.vue),
 ]

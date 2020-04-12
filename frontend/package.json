@@ -11,15 +11,17 @@
     "watchjs": "parcel watch src/main.js -o dist/main.js",
     "watchcss": "parcel watch src/css/main.pcss -d dist/css/",
     "buildriot": "parcel build src/riot/main.js -d dist/riot && parcel build src/css/main.pcss -d dist/riot/css",
-    "buildriotpug": "npx riot -c src/riotpug/riot.config src && parcel build src/riotpug/main.js -d dist/riotpug && parcel build src/css/main.pcss -d dist/riotpug/css && rm src/riotpug/*.riot.js"
+    "buildriotpug": "npx riot -c src/riotpug/riot.config src && parcel build src/riotpug/main.js -d dist/riotpug && parcel build src/css/main.pcss -d dist/riotpug/css && rm src/riotpug/*.riot.js",
+    "buildvue": "parcel build src/vue/main.js -d dist/vue && parcel build src/css/main.pcss -d dist/vue/css"
   },
   "dependencies": {
     "autoprefixer": "^9.7.5",
     "postcss-cli": "^7.1.0",
-    "tailwindcss": "^1.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "riot": "^4.11.1"
+    "riot": "^4.11.1",
+    "tailwindcss": "^1.2.0",
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -27,7 +29,9 @@
     "@babel/preset-react": "^7.9.4",
     "@riotjs/cli": "^4.0.0",
     "@riotjs/parcel-plugin-riot": "4.0.1",
+    "@vue/component-compiler-utils": "^3.1.2",
     "parcel-bundler": "^1.12.4",
-    "pug": "^2.0.4"
+    "pug": "^2.0.4",
+    "vue-template-compiler": "^2.6.11"
   }
 }

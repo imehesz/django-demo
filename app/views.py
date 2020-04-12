@@ -9,3 +9,6 @@ def riot(request):
 
 def riotpug(request):
     return render(request, "index-riot-pug.html")
+
+def vue(request):
+    return render(request, "index-vue.html")

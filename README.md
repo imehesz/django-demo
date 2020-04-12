@@ -4,11 +4,11 @@
 
 /app - Django app
 
-/frontend - React/Tailwind
+/frontend - JS Frameworks/Tailwind
 
 /website - Django Project Configurations
 
-## Building React/Tailwind
+## Building JS Frameworks/Tailwind
 
 Go into /frontend and run these commands.
 
@@ -16,6 +16,7 @@ Go into /frontend and run these commands.
 2. `npm run build` -- builds with React
 3. `npm run buildriot` -- Riot4
 4. `npm run buildriotpug` -- Riot4 with Pug, so pretty! ♥
+5. `npm run buildvue` -- Vue
 
 
 ## Running server
