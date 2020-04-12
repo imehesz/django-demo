@@ -10,8 +10,8 @@
     "build": "parcel build src/main.js -d dist && parcel build src/css/main.pcss -d dist/css",
     "watchjs": "parcel watch src/main.js -o dist/main.js",
     "watchcss": "parcel watch src/css/main.pcss -d dist/css/",
-    "buildriot": "parcel build src/riot/main.js -d dist/riot && parcel build src/css/main.pcss -d dist/riot/css",    
-    "buildriotpug": "npx riot -c src/riotpug/riot.config src && parcel build src/riotpug/main.js -d dist/riotpug && parcel build src/css/main.pcss -d dist/riotpug/css"
+    "buildriot": "parcel build src/riot/main.js -d dist/riot && parcel build src/css/main.pcss -d dist/riot/css",
+    "buildriotpug": "npx riot -c src/riotpug/riot.config src && parcel build src/riotpug/main.js -d dist/riotpug && parcel build src/css/main.pcss -d dist/riotpug/css && rm src/riotpug/*.riot.js"
   },
   "dependencies": {
     "autoprefixer": "^9.7.5",
