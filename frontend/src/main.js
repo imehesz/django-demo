@@ -1,6 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
+let text = 'Hello Vanilla World!'
+let el = document.getElementById("app")
 
-var mountNode = document.getElementById("app");
-ReactDOM.render(<App name="World" />, mountNode);
+el.innerHTML = `<h1 class='text-center text-4xl'>${ text }</h1>`

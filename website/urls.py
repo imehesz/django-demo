@@ -24,4 +24,5 @@ urlpatterns = [
     path('riot/', views.riot),
     path("riotpug/", views.riotpug),
     path("vue/", views.vue),
+    path("react/", views.react)
 ]

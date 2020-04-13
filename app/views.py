@@ -4,6 +4,9 @@ from django.shortcuts import render
 def index(request):
     return render(request, 'index.html')
 
+def react(request):
+    return render(request, 'index-react.html')
+
 def riot(request):
     return render(request, "index-riot.html")
 
